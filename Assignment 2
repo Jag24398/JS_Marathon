@@ -1,0 +1,50 @@
+Q 1: What is lexical structure?
+-> A programming language’s lexical structure specifies a set of some basic rules about how code should be written in it. Rules like what variable names look like, the delimiter characters for comments, and how one program statement is separated from the next. It is the lowest-level syntax of a language.
+
+Q 2: What is Unicode?
+-> In Javascript, the identifiers and string literals can be expressed in Unicode via a Unicode escape sequence. The general syntax is \uXXXX, where X denotes four hexadecimal digits. For example, the letter o is denoted as ‘\u006F’ in Unicode.
+
+Q 3: Explain all the keywords present in the JavaScript with examples?
+->
+    goto  : Used to return execution control to a specific location. In general, the goto can be accomplished by the break and continue keywords.
+          
+          var no=0;
+          sposition
+          document.write(" something print here ");
+          no++;
+          if(no < 10) goto sposition;}
+
+
+    In    : It is an operator returns true if the specified property is present in the specified object, else it returns false.
+            
+            var fruits={f1: “apple”, f2: “banana”, f3: “orange”};
+            // output as true expected
+            console.log('apple' in fruits);   
+
+
+    instanceof  : Returns true if the object is an instance of the class otherwise false
+                  
+                  var fruits=["apple", "banana", "orange"];
+                  // Returns true
+                  fruits instanceof Object;
+                  // Returns true
+                  fruits instanceof Array;
+                  // Returns false
+                  fruits instanceof String;
+
+
+    Static     finally    arguments    public    Do       else    Const    Function    class*    return    let*     Catch    Eval    For    if    This
+    
+    try         Break     debugger      Yield   extends*  enum*  Continue  export*      null     switch   private    New    throw   while  Case   await*
+
+    Delete      super*    default       Void      Var   protected Package  Interface   False    typeof    implements With   import*  True   `
+    
+    
+    Examples can be dound here: https://www.educba.com/javascript-keywords/
+    
+ Q 4: What are shorthand operators, explain with a suitable example?
+ -> Shorthand Assignment Operators combines one of the arithmetic or bitwise operators with the assignment operator. They are also called as compound assignment operators
+ 
+ Q 5: What is “use Strict” in JavaScript?
+ -> "use strict"; Defines that JavaScript code should be executed in "strict mode". In “strict mode,” some silent errors are changed to throw errors and disable some of the more confusing or undefined features in JavaScript.
+    For example, you can not use undeclared variables in strict mode
