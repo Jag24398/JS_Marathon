@@ -1,0 +1,28 @@
+Q 1: Explain the use of JavaScript ( or What you can do using a JavaScript)?
+-> JS is one of great language using which 
+  - one can build the interactive websites.
+  - We can hide or display data on front-end.
+  - JS can be used to build Games
+  - JS is one of such language which is used in front-end as well as in backend development of project
+  - we can handle the backend content dynamically using JS etc
+
+Q 2: What is the difference between client-side and server-side?
+-> Client-side : In this the processing happens in users/client machine. for this it requires browser to run script on users machine. it reduces the load on the server.
+   Server-side : In this the processing takes places on web-servers. here all the data is dynamically handled by the web-servers and provided as per the request.
+
+Q 3: What is Nodejs?
+-> Nodejs is a platform used for easily building fast and scalable applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+
+Q 4: Explain Scope in JavaScript?
+-> There are two scopes in JavaScript that are global and local:
+  - Global Scope: In the global scope, the variable can be accessed from any part of the JavaScript code.
+  - Local Scope: In the local scope, the variable can be accessed within a function where it is declared.
+  
+Q 5: JavaScript is asynchronous or synchronous?
+-> JavaScript is synchronous by default and is single threaded. This means that code cannot create new threads and run in parallel.
+
+Q 6: JavaScript is Single-threaded or Multi-threaded?
+-> JavaScript is Single-threaded.
+
+Q 7: Explain DOM in your own word?
+-> The Document Object Model (DOM) is a programming interface for HTML. It translates the content of an HTML document into a standardized object that functional programming languages like JavaScript can easily access and modify. 
